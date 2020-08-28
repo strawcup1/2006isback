@@ -1,0 +1,1396 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0084)http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./YouTube - On the Set of Spiderman 3_files/analytics.js(1).download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app104.us.archive.org';v.server_ms=1036;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/playback.bundle.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/wombat.js.download" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://www.youtube.com:80/watch?v=sJ6mjRrKi7c","20060615051354","http://web.archive.org/web/","web","/_static/",
+	      "1150348434","www.youtube.com:80");
+</script>
+<link rel="stylesheet" type="text/css" href="./YouTube - On the Set of Spiderman 3_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./YouTube - On the Set of Spiderman 3_files/iconochive.css">
+<!-- Start Wayback Rewrite JS Include -->
+<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/jwplayer.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/video-embed-rewriter.js.download" charset="utf-8"></script>
+<script type="text/javascript">
+_wmVideos_.init("/web");
+</script>
+<!-- End Wayback Rewrite JS Include -->
+
+	
+	<title>YouTube - How to hack neopets (working for the next 20 years)</title>
+
+	<link rel="stylesheet" href="./YouTube - On the Set of Spiderman 3_files/styles_yts1146707330.css" type="text/css">
+	<link rel="stylesheet" href="./YouTube - On the Set of Spiderman 3_files/base_yts1149732240.css" type="text/css">
+	<link rel="stylesheet" href="./YouTube - On the Set of Spiderman 3_files/watch_yts1149717226.css" type="text/css">
+	<link rel="icon" href="http://web.archive.org/web/20060615051354im_/http://www.youtube.com/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="http://web.archive.org/web/20060615051354im_/http://www.youtube.com/favicon.ico" type="image/x-icon">
+	<meta name="title" content="How to hack neopets (working for the next 20 years)">
+	<meta name="description" content="Spiderman swings across Foley Square in New York - June 10, 2006">
+	<meta name="keywords" content="strawcup, straw, strawyt, neopets stock market, virtual pet">
+
+	<link rel="alternate" title="YouTube - [RSS]" href="http://web.archive.org/web/20060615051354/http://www.youtube.com/rssls">
+
+	<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/ui.js.download"></script>
+	<script language="javascript" type="text/javascript">
+		onLoadFunctionList = new Array();
+		function performOnLoadFunctions()
+		{
+			for (var i in onLoadFunctionList)
+			{
+				onLoadFunctionList[i]();
+			}
+		}
+	</script>
+	
+		
+	
+	
+	<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/swfobject.js.download"></script>
+	<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/components_yts1149224151.js.download"></script>
+	<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/AJAX_yts1149224151.js.download"></script>
+	<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/ui_yts1149560029.js.download"></script>
+	<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/comments_yts1147748976.js.download"></script>
+	
+
+	<script language="javascript" type="text/javascript">
+	
+	function CheckLogin() {
+			return false;
+	}
+	
+
+	
+	
+	function showRelatedVideosContent() {
+		getAndShowNavContent('exRelated', '/watch_ajax?video_id=sJ6mjRrKi7c&action_get_related_videos_component&search=spiderman%20spiderman3%20newyork%20nyc%20movie');
+	}
+	
+	function showRelatedPlaylistContent() {
+		getAndShowNavContent('exPlaylist', '/watch_ajax?feature=PlayList&video_id=sJ6mjRrKi7c&action_get_related_playlist_component&p=&index=0');
+	}
+	function showRelatedUserContent() {
+		getAndShowNavContent('exUser', '/watch_ajax?video_id=sJ6mjRrKi7c&action_get_user_videos_component&user_id=5nmQo6zJns8&video_count=1');
+	}
+
+	
+	
+	// This can be split out...
+	var contentTab=new Array();	
+	function getAndShowNavContent(nameprefix, url) {
+		selectNavLink(nameprefix + "Link");
+	
+		if(contentTab[nameprefix]) {
+			return;
+		}
+		
+		self.nameprefix = nameprefix;
+		self.showRelatedVideosResponse = showRelatedVideosResponse;
+		getUrlXMLResponse(url, showRelatedVideosResponse);
+	}
+	function showRelatedVideosResponse(req) {
+		document.getElementById(self.nameprefix + "Div").innerHTML=getNodeValue(req.responseXML, "html_content");
+		setContentLoaded(self.nameprefix);
+	}
+		
+	function setContentLoaded(nameprefix) {
+		selectNavLink(nameprefix + "Link");
+		contentTab[nameprefix] = 1;
+	}
+	
+
+	
+	function showAjaxDiv(divName, url) {
+		if(CheckLogin()) {
+			self.divName = divName
+			self.showAjaxDivResponse = showAjaxDivResponse
+			getUrlXMLResponse(url, self.showAjaxDivResponse);
+		} else {
+			alert("Saved to Favorites!");
+		}
+	}
+	function showAjaxDivResponse(req) {
+		document.getElementById(self.divName).innerHTML=getNodeValue(req.responseXML, "html_content");
+		openDiv(self.divName);
+	}
+	
+	function postAjaxForm(divName, formName) {
+		self.postAjaxFormCompleted = postAjaxFormCompleted;	
+		self.divName = divName;
+		
+		postFormXMLResponse(formName, self.postAjaxFormCompleted);
+	}
+	function postAjaxFormCompleted(req) {
+		if(self.divName != null)
+			hideAjaxDiv(self.divName);
+	}
+	function hideAjaxDiv(divName) {
+		closeDiv(divName);
+	}
+	
+	function xmlrpccallback(req) {
+		alert('xmlrpccallback: ' + req.responseText);
+	}
+
+	function debugCompleted(req) {
+		url = getNodeValue(req.responseXML, 'url');
+		xmldata = getNodeValue(req.responseXML, 'xmldata');
+		proxy = getNodeValue(req.responseXML, 'proxy');
+		//alert('url: '+ url + '\nxmldata: ' + xmldata);
+		postUrlXMLResponse(url, xmldata, xmlrpccallback);
+		//alert ("url: " + url + "\nxmldata: " + xmldata + "\nproxy: " + proxy);
+	}
+
+
+	
+	
+	function getXMLRPCData(divName, formName) {
+		self.callback = debugCompleted;
+		postFormXMLResponse(formName, self.callback);
+	}
+	
+	
+	// Player stuff
+	
+	function openFull()
+	{
+	  var fs = window.open( "/watch_fullscreen?video_id=sJ6mjRrKi7c&l=36&t=OEgsToPDskKA0acn3whpqJpVGV6Q8yl1&fs=1&title=" + "On the Set of Spiderman 3" ,
+			   "FullScreenVideo", "toolbar=no,width=" + screen.availWidth  + ",height=" + screen.availHeight 
+			 + ",status=no,resizable=yes,fullscreen=yes,scrollbars=no");
+	  fs.focus();
+	}
+	
+	function gotoNext()
+	{
+	}
+	
+	function hideDiv(d) 
+	{                   
+		d.style.display = "none";
+	}               
+	
+	function showDiv(d)
+	{
+		d.style.display = "block";
+	}
+	
+	function autoNext()
+	{
+		var p = document.getElementById("movie_player");
+		p.SetVariable("playnext", "1");
+	
+		var pa = document.getElementById("playall");
+		var pga = document.getElementById("playingall");
+		hideDiv(pa);
+		showDiv(pga);
+	}
+
+
+
+	
+	
+		function showCommentReplyForm(form_id, reply_parent_id, is_main_comment_form) {
+		if(!CheckLogin()) {
+			alert("Please login to post a comment.");
+			return false;
+		}
+			
+		printCommentReplyForm(form_id, reply_parent_id, is_main_comment_form);
+	}
+	function printCommentReplyForm(form_id, reply_parent_id, is_main_comment_form) {
+
+		var div_id = "div_" + form_id;
+		var reply_id = "reply_" + form_id;
+		var reply_comment_form = "comment_form" + form_id;
+		
+		if (is_main_comment_form)
+			discard_visible="style='display: none'";
+		else
+			discard_visible="";
+		
+		var innerHTMLContent = '\
+		<form name="' + reply_comment_form + '" id="' + reply_comment_form + '" method="post" action="/comment_servlet" >\
+			<input type="hidden" name="video_id" value="sJ6mjRrKi7c">\
+			<input type="hidden" name="add_comment" value="">\
+			<input type="hidden" name="form_id" value="' + reply_comment_form + '">\
+			<input type="hidden" name="reply_parent_id" value="' + reply_parent_id + '">\
+			<input type="hidden" name="comment_type" value="V">\
+		<textarea tabindex="2" name="comment" cols="55" rows="3"></textarea>\
+			<br>\
+			<input align="right" type="button" name="add_comment_button" \
+								value="Post Comment" \
+								onclick="postThreadedComment(\'' + reply_comment_form + '\');">\
+			<input align="right" type="button" name="discard_comment_button"\
+								value="Discard" ' + discard_visible + '\
+								onclick="hideCommentReplyForm(\'' + form_id + '\',false);">\
+		</form>';
+		if(!is_main_comment_form) {
+			toggleVisibility(reply_id, false);
+		}
+		toggleVisibility(div_id, true);
+		setInnerHTML(div_id, innerHTMLContent);
+	}
+
+	
+	
+	function blockUser(form) 
+	{
+        if (!confirm("Are you sure you want to block this user?"))
+            return false;
+
+		postFormByForm(form, true, execOnSuccess(function (xmlHttpRequest) { 
+			response_str = xmlHttpRequest.responseText;
+			if(response_str == "SUCCESS") {
+				form.block_button.value = "User blocked"
+			} else {
+				alert ("An error occured while blocking the user.");
+				form.block_button.value = "Block this user"
+				form.block_button.disabled = false;
+			}
+		}));
+		form.block_button.disabled = true
+		form.block_button.value = "Please wait.."
+		return true;
+	}
+	function unblockUser(form) 
+	{
+        if (!confirm("Are you sure you want to unblock this user?"))
+            return false;
+
+		postFormByForm(form, true, execOnSuccess(function (xmlHttpRequest) { 
+			response_str = xmlHttpRequest.responseText;
+			if(response_str == "SUCCESS") {
+				form.unblock_button.value = "User unblocked"
+			} else {
+				alert ("An error occured while unblocking the user.");
+				form.unblock_button.value = "Unblock this user"
+				form.unblock_button.disabled = false;
+			}
+		}));
+
+		form.unblock_button.disabled = true
+		form.unblock_button.value = "Please wait.."
+		return true;
+	}
+	
+	function unblockUserLink(friend_id, url)
+	{
+        if (!confirm("Are you sure you want to unblock this user?"))
+            return true;
+		getUrlSync("/link_servlet?unblock_user=1&friend_id=" + friend_id);
+	    window.location.href = url;
+		return true;
+	}
+	function blockUserLink(friend_id, url)
+	{
+        if (!confirm("Are you sure you want to block this user?"))
+            return true;
+		getUrlSync("/link_servlet?block_user=1&friend_id=" + friend_id);
+	    window.location.href = url;
+		return true;
+	}
+
+
+
+
+	
+	
+		onLoadFunctionList.push(function() { setContentLoaded("exRelated"); } );
+		
+</script>
+
+
+	
+</head>
+
+<body onload="performOnLoadFunctions();" data-gr-c-s-loaded="true"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="./YouTube - On the Set of Spiderman 3_files/donate.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(625,27,25,2,"web","http://www.youtube.com/watch?v=sJ6mjRrKi7c","20060615051354",1996,"/_static/",["/_static/css/banner-styles.css?v=_99BHQfY","/_static/css/iconochive.css?v=qtvMKcIJ"]);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<div id="baseDiv">
+			<div id="logoTagDiv">
+		<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/"><img src="./YouTube - On the Set of Spiderman 3_files/logo_tagline_sm.gif" alt="YouTube" width="250" height="48" border="0"></a>
+	</div>
+
+		<div id="utilDiv">
+			<a class="headerLink" href="http://web.archive.org/web/20060615051354/http://www.youtube.com/signup"><strong>Upload</strong></a>
+			<span class="utilDelim">|</span>
+			<a>StrawCup__ ▼</a>
+			<span class="utilDelim">|</span>
+			<a class="headerLink" href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=rw">Viewing History</a>
+			<span class="utilDelim">|</span>
+			<a class="headerLink" href="http://web.archive.org/web/20060615051354/http://www.youtube.com/t/help_center">Help</a>
+	</div>
+	<form name="logoutForm" method="post" action="http://web.archive.org/web/20060615051354/http://www.youtube.com/index">
+		<input type="hidden" name="action_logout" value="1">
+	</form>
+
+	<div id="searchDiv">
+				<form name="searchForm" id="searchForm" method="get" action="http://web.archive.org/web/20060615051354/http://www.youtube.com/results">
+			<input tabindex="1" type="text" name="search" maxlength="128" id="searchField" value="">&nbsp;
+			<select name="search_type">
+				<option value="search_videos">Videos</option>
+				<option value="search_users">Members</option>
+				<option value="search_groups">Groups</option>
+				<option value="search_playlists">Playlists</option>
+			</select>
+			<input type="submit" name="search" value="Search">
+		</form>
+	
+
+	</div>
+
+	<table border="0" cellpadding="0" cellspacing="0" width="100%">
+		<tbody><tr>
+			<td>
+				<div id="gNavDiv">
+				<!-- thank you Spiffy Corners (http://www.spiffycorners.com/) for the rounded corner goodness.  RESPECT!  -->
+						
+						<div class="ltab">
+						<b class="rc">
+						<b class="rc1"><b></b></b>
+						<b class="rc2"><b></b></b>
+						<b class="rc3"></b>
+						<b class="rc4"></b>
+						<b class="rc5"></b>
+						</b> <div class="tabContent">
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/index">Home</a>
+						</div>
+						</div>
+						
+						<div class="tab">
+						<b class="rcs">
+						<b class="rcs1"><b></b></b>
+						<b class="rcs2"><b></b></b>
+						<b class="rcs3"></b>
+						<b class="rcs4"></b>
+						<b class="rcs5"></b>
+						</b> <div class="tabContent selected">
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=mp">Videos</a>
+						</div>
+						</div>
+						
+						<div class="tab">
+						<b class="rc">
+						<b class="rc1"><b></b></b>
+						<b class="rc2"><b></b></b>
+						<b class="rc3"></b>
+						<b class="rc4"></b>
+						<b class="rc5"></b>
+						</b> <div class="tabContent">
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/categories">Categories</a>
+						</div>
+						</div>
+						
+						<div class="tab">
+						<b class="rc">
+						<b class="rc1"><b></b></b>
+						<b class="rc2"><b></b></b>
+						<b class="rc3"></b>
+						<b class="rc4"></b>
+						<b class="rc5"></b>
+						</b> <div class="tabContent">
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/groups_main">Groups</a>
+						</div>
+						</div>
+						
+						<div class="tab">
+						<b class="rc">
+						<b class="rc1"><b></b></b>
+						<b class="rc2"><b></b></b>
+						<b class="rc3"></b>
+						<b class="rc4"></b>
+						<b class="rc5"></b>
+						</b> <div class="tabContent">
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/members?ms30">Channels</a>
+						</div>
+						</div>
+						
+						<div class="rtab">
+						<b class="rc">
+						<b class="rc1"><b></b></b>
+						<b class="rc2"><b></b></b>
+						<b class="rc3"></b>
+						<b class="rc4"></b>
+						<b class="rc5"></b>
+						</b> <div class="tabContent">
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/my_videos_upload">Upload</a>
+						</div>
+						</div>
+				</div>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div id="gSubNavDiv">&nbsp;
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=mp">Most Viewed</a>
+								<span style="padding: 0px 8px;">|</span>
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=tr">Top Rated</a>
+								<span style="padding: 0px 8px;">|</span>
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=md">Most Discussed</a>
+								<span style="padding: 0px 8px;">|</span>
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=mf">Top Favorites</a>
+								<span style="padding: 0px 8px;">|</span>
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=mrd">Most Linked</a>
+								<span style="padding: 0px 8px;">|</span>
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=rf">Recently Featured</a>
+								<span style="padding: 0px 8px;">|</span>
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=mr">Most Recent</a>
+								<span style="padding: 0px 8px;">|</span>
+						<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=r">Random</a>
+					&nbsp;
+				</div>
+			</td>
+		</tr>
+	</tbody></table>
+
+		
+		
+		
+	
+
+<div align="center" style="margin-bottom: 10px;">
+<!-- google_ad_section_start -->
+ 
+ 						
+		
+		
+				
+				<!-- begin ad tag -->
+	<script language="JavaScript" type="text/javascript">
+		ord=Math.random()*10000000000000000 + 1;
+		document.write('<script language="JavaScript" src="http://web.archive.org/web/20060615051354/http://ad.doubleclick.net/adj/you.channels/entertainment_inv;sz=728x90;ord=' + ord + '?" type="text/javascript"><\/script>');
+	</script><script language="JavaScript" src="./YouTube - On the Set of Spiderman 3_files/entertainment_inv" type="text/javascript"></script>
+	
+	<!-- End ad tag -->
+	
+
+		
+
+		
+ 				
+				<script type="text/javascript"><!--
+	google_ad_client = "pub-6219811747049371";
+	
+		google_ad_width = 728;
+		google_ad_height = 90;
+			google_ad_format = "728x90_as_new";
+		
+		google_alternate_ad_url = "http://web.archive.org/web/20060615051354/http://www.youtube.com/static_ad_728_90_tf.html";
+	
+	
+	google_ad_type = "text_image";
+	google_ad_channel ="2179803025";
+	google_color_border = "FFFFFF";
+		google_color_bg = "FFFFFF";
+	google_color_link = "0033CC";
+	google_color_url = "0033CC";
+	google_color_text = "444444";
+	google_kw_type = "broad";
+
+		google_kw = "Entertainment";
+	
+	//--></script>
+	<script type="text/javascript" src="./YouTube - On the Set of Spiderman 3_files/show_ads.js.download">
+	</script>
+
+		
+		
+		
+
+		
+<!-- google_ad_section_end -->
+</div>
+
+
+<script language="Javascript" type="text/javascript">
+	
+	function selectNavLink (linkName) {
+		if (linkName == "exRelatedLink") {
+			closeDiv("exUserDiv");
+			closeDiv("exPlaylistDiv");
+			openDiv("exRelatedDiv");
+			unSelectLink("exPlaylistLink");
+			unSelectLink("exUserLink");
+			selectLink("exRelatedLink");
+			blurElement("exRelatedLink");
+		}
+		if (linkName == "exPlaylistLink") {
+			closeDiv("exRelatedDiv");
+			closeDiv("exUserDiv");
+			openDiv("exPlaylistDiv");
+			unSelectLink("exUserLink");
+			unSelectLink("exRelatedLink");
+			selectLink("exPlaylistLink");
+			blurElement("exPlaylistLink");
+		}
+		if (linkName == "exUserLink") {
+			closeDiv("exRelatedDiv");
+			closeDiv("exPlaylistDiv");
+			openDiv("exUserDiv");
+			unSelectLink("exPlaylistLink");
+			unSelectLink("exRelatedLink");
+			selectLink("exUserLink");
+			blurElement("exUserLink");
+		}
+	}
+	
+</script>
+
+<img src="YouTube - On the Set of Spiderman 3_files/youtubead2006.png" alt="Girl in a jacket" width="728" height="90">
+
+
+<!-- begin presentation code -->
+
+
+<h1>
+
+How to hack neopets (working for the next 20 years) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</h1>
+
+<table id="watchTable"><tbody><tr>
+<td>
+<div id="interactDiv">
+
+	<div id="playerDiv">
+		<video width="435" height="300" autoplay playsinline loop id="video" >
+  <source src="YouTube - On the Set of Spiderman 3_files/How to hack neopets (working for the next 20 years).mp4" t width="320"type="video/mp4">
+</video>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="YouTube - On the Set of Spiderman 3_files/videoplayer.png" width=401	height=30>
+	     <div/>
+	<script type="text/javascript">
+		// <![CDATA[
+		var fo = new SWFObject("/player2.swf?video_id=sJ6mjRrKi7c&l=36&t=OEgsToPDskKA0acn3whpqJpVGV6Q8yl1", "movie_player", "450", "370", 7, "#FFFFFF");
+		fo.write("playerDiv");
+		// ]]>
+	</script>
+	
+	<div id="actionsAndStatsDiv" class="contentBox">
+		<div id="ratingDivWrapper">
+			<div id="ratingDiv">
+
+	
+
+					<div id="ratingMessage" class="label">Rate this video</div>
+								<nobr>
+			<img class="rating" src="./YouTube - On the Set of Spiderman 3_files/star.gif">
+			<img class="rating" src="./YouTube - On the Set of Spiderman 3_files/star.gif">
+			<img class="rating" src="./YouTube - On the Set of Spiderman 3_files/star.gif">
+			<img class="rating" src="./YouTube - On the Set of Spiderman 3_files/star_bg.gif">
+			<img class="rating" src="./YouTube - On the Set of Spiderman 3_files/star_bg.gif">
+	</nobr>
+		<div class="rating">2 ratings</div>
+	
+
+
+
+			</div> <!-- end ratingDiv -->
+			
+				
+			
+		</div> <!-- end ratingDivWrapper -->
+	
+		<div id="actionsDiv">
+			<div class="actionRow">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" class="noul" onclick="showAjaxDiv(&#39;addFavsDiv&#39;, &#39;/watch_ajax?video_id=sJ6mjRrKi7c&amp;action_get_playlists_component=1&#39;, true); return false;"><img src="./YouTube - On the Set of Spiderman 3_files/fav_w_icon.gif" border="0" class="alignMid" alt="Save to Favorites"> <span class="eLink">Save to Favorites</span></a>
+			</div>
+			<div class="actionRow">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" class="noul" onclick="showAjaxDiv(&#39;addGroupsDiv&#39;, &#39;/watch_ajax?video_id=sJ6mjRrKi7c&amp;action_get_groups_component=1&#39;, true); return false;"><img src="./YouTube - On the Set of Spiderman 3_files/groups_w_icon.gif" border="0" class="alignMid" alt="Add to Groups"> <span class="eLink">Add to Groups</span></a>
+			</div>
+			<div class="actionRow">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" class="noul" onclick="window.open(&#39;/share?v=sJ6mjRrKi7c&#39;,&#39;Share&#39;,&#39;width=580,height=480,resizable=yes,scrollbars=yes,status=0&#39;); return false;"><img src="./YouTube - On the Set of Spiderman 3_files/email_w_icon.gif" border="0" class="alignMid" alt="Share This Video"> <span class="eLink">Share Video</span></a>
+			</div>
+			<div class="actionRow">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" class="noul" onclick="showAjaxDiv(&#39;blogVidDiv&#39;, &#39;/watch_ajax?video_id=sJ6mjRrKi7c&amp;action_get_user_blogs_component=1&#39;, true); return false;"><img src="./YouTube - On the Set of Spiderman 3_files/web_w_icon.gif" border="0" class="alignMid"> <span class="eLink">Blog Video</span></a>
+			</div>
+			<div class="actionRow">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" class="noul" onclick="showAjaxDiv(&#39;inappropriateVidDiv&#39;, &#39;/watch_ajax?video_id=sJ6mjRrKi7c&amp;action_get_flag_video_component=1&#39;, true); return false;"><img src="./YouTube - On the Set of Spiderman 3_files/flag_w_icon.gif" border="0" class="alignMid" alt="Flag as Inappropriate"> <span class="eLink">Flag as Inappropriate</span></a>
+			</div>
+		</div>
+		<div id="statsDiv">
+			<div class="statRow">
+			<span class="smallLabel">Views:</span>
+			15                                                     
+			</div>
+			<div class="statRow">
+			<span class="smallLabel">Comments:</span>
+			5
+			</div>
+			<div class="statRow">
+			<span class="smallLabel">Favorited:</span>
+			1
+				<span class="smallText">times</span>
+			</div>
+			<div class="statRow">
+			<span class="smallLabel">Honors:</span>
+			6
+				<span><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" class="eLink smallText" onclick="openDiv(&#39;honorsDiv&#39;); return false;">show</a></span>
+			</div>
+			<div class="statRow">
+				<div id="linksToLabel"><span class="smallLabel">Links to<br>this video:</span></div>
+				<div id="linksToValue">
+					<span><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" class="eLink smallText" onclick="openDiv(&#39;linkstoDiv&#39;); return false;">show</a></span>
+				</div>
+			</div>
+		</div>
+		
+
+		<div id="addFavsDiv" class="popupDiv"></div>
+
+		
+		<div id="addGroupsDiv" class="popupDiv"></div>
+		
+		<div id="blogVidDiv" class="popupDiv"></div>
+			
+		<div id="inappropriateVidDiv" class="popupDiv"></div>
+		
+		
+		<div id="honorsDiv" class="popupDiv">
+			<div class="closeDiv">(<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#;" title="close this layer" onclick="closeDiv(&#39;honorsDiv&#39;); return false;">close</a>)</div>
+			<h1 style="margin-top: 0px;">Honors for This Video</h1>
+			<p>
+					<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=rf">Recently Featured</a><br>
+		
+					<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=mp&amp;t=m&amp;page=1">#14 - Most Viewed (This Month)</a><br>
+		
+					<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=mp&amp;t=w&amp;page=1">#1 - Most Viewed (This Week)</a><br>
+		
+		
+		
+		
+					<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=md&amp;t=a&amp;page=4">#61 - Most Discussed All-Time</a><br>
+		
+					<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=md&amp;t=m&amp;page=1">#14 - Most Discussed (This Month)</a><br>
+		
+					<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/browse?s=md&amp;t=w&amp;page=1">#3 - Most Discussed (This Week)</a><br>
+		
+			</p>
+			<table class="okTable"><tbody><tr><td>
+			<form>
+			<input type="submit" value="OK" onclick="closeDiv(&#39;honorsDiv&#39;); return false;">
+			</form>
+			</td></tr></tbody></table>
+		</div>
+		
+		<div id="linkstoDiv" class="popupDiv">
+			<div class="closeDiv">(<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" title="close this layer" onclick="closeDiv(&#39;linkstoDiv&#39;); return false;">close</a>)</div>
+			<h1 style="margin-top: 0px;">Sites Linking to This Video</h1>
+			<p>
+				<span class="label">27483 clicks from</span> <a href="http://web.archive.org/web/20060615051354/http://www.manyhighways.com/movies/on_the_set_of_spiderman_3.php" target="_top">http://www.manyhighways.com/movies/on_the_set_of_spi...</a><br>
+				<span class="label">1146 clicks from</span> <a href="http://web.archive.org/web/20060615051354/http://www.smog.pl/wideo/1211/spiderman/" target="_top">http://www.smog.pl/wideo/1211/spiderman/</a><br>
+				<span class="label">742 clicks from</span> <a href="http://web.archive.org/web/20060615051354/http://www.cualquiera.com.ar/videolinks/spiderman-3.html" target="_top">http://www.cualquiera.com.ar/videolinks/spiderman-3....</a><br>
+				<span class="label">432 clicks from</span> <a href="http://web.archive.org/web/20060615051354/http://www.judao.com.br/8/texticulo.php?action=ler&amp;id=3856" target="_top">http://www.judao.com.br/8/texticulo.php?action=ler&amp;a...;</a><br>
+				<span class="label">180 clicks from</span> <a href="http://web.archive.org/web/20060615051354/http://www.manyhighways.com/" target="_top">http://www.manyhighways.com/</a><br>
+			</p>
+			<table class="okTable"><tbody><tr><td>
+			<form>
+			<input type="submit" value="OK" onclick="closeDiv(&#39;linkstoDiv&#39;); return false;">
+			</form>
+			</td></tr></tbody></table>
+		</div>
+
+	</div> <!-- end actionsAndStatsDiv -->
+
+	<div style="margin-top: 12px; text-align: center;">
+		<!-- google_ad_section_start -->
+ 								
+		
+		
+						
+		<!-- begin ad tag -->
+	
+	<!-- End ad tag -->
+	
+
+		
+
+		
+	</div>
+
+<br>
+
+	<div id="videoResponseLinkDiv"><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/video_response_upload?v=sJ6mjRrKi7c">Post a Video Response</a>  
+ 	
+<br>
+Respond to this video with a video of your own—choose one you've already uploaded or make a new one! 
+	
+	</div>
+
+			
+<div id="commentsDiv">
+		<div id="recent_comments">
+			<table><tbody><tr>
+			<td><h2 class="commentHeading">Recent Comments (5 total)</h2></td>
+			<td align="right"><div id="reply_main_comment2" class="commentHeading"><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" class="eLink" onclick="showCommentReplyForm(&#39;main_comment2&#39;, &#39;&#39;, false); return false;">Post a new comment</a></div></td>
+			</tr></tbody></table>
+			
+			<div id="div_main_comment2"></div>
+
+			<input type="button" id="all_comments_button" value="View All Comments" onclick="load_all_comments(&#39;sJ6mjRrKi7c&#39;, true);">
+						<div id="div_pEbk4igwKis"> <!-- comment_div_id -->
+			<a name="pEbk4igwKis"></a>
+			<div class="commentEntry" id="comment_pEbk4igwKis">
+				<div class="commentHead">
+					<b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/GuitarDude777">dhruva</a></b>
+					<span class="smallText"> (4 hours ago)</span>
+				</div>
+				<div class="commentBody">
+					cn u mek one on rublox pls an no virus ok?
+				<div/>
+				<div class="commentAction smallText">
+					
+		
+		<div class="commentAction smallText" id="container_comment_form_id_pEbk4igwKis" style="display: none">
+		</div>
+		<div class="commentAction smallText" id="reply_comment_form_id_pEbk4igwKis">
+					  (<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" onclick="showCommentReplyForm(&#39;comment_form_id_pEbk4igwKis&#39;, &#39;pEbk4igwKis&#39;, false); return false;" class="eLink">reply to this</a>) &nbsp; 
+	</div>
+
+	<div id="div_comment_form_id_pEbk4igwKis"></div>
+
+				</div>
+			</div>
+	</div> <!-- comment_div_id -->
+
+			<div id="div_SYyaA7C1cO4"> <!-- comment_div_id -->
+			<a name="SYyaA7C1cO4"></a>
+			<div class="commentEntry" id="comment_SYyaA7C1cO4">
+				<div class="commentHead">
+					<b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/darnell321">strawcup__</a></b>
+					<span class="smallText"> (3 hours ago)</span>
+				</div>
+				<div class="commentBody">
+					Certainly not, I've hypersenstivity to robux.. 
+<br><br> 
+<br><br> 
+<br><br> 
+
+				</div>
+				<div class="commentAction smallText">
+					
+		
+		<div class="commentAction smallText" id="container_comment_form_id_SYyaA7C1cO4" style="display: none">
+		</div>
+		<div class="commentAction smallText" id="reply_comment_form_id_SYyaA7C1cO4">
+					  (<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" onclick="showCommentReplyForm(&#39;comment_form_id_SYyaA7C1cO4&#39;, &#39;SYyaA7C1cO4&#39;, false); return false;" class="eLink">reply to this</a>) &nbsp; 
+	</div>
+
+	<div id="div_comment_form_id_SYyaA7C1cO4"></div>
+
+				</div>
+			</div>
+	</div> <!-- comment_div_id -->
+
+			<div id="div_76V55SbWDl8"> <!-- comment_div_id -->
+			<a name="76V55SbWDl8"></a>
+			<div class="commentEntry" id="comment_76V55SbWDl8">
+				<div class="commentHead">
+					<b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/mooocher">NoNameB</a></b>
+					<span class="smallText"> (3 hours ago)</span>
+				</div>
+				<div class="commentBody">
+					This is so emotional, it helped me a lot in my life, it completly changed my life, it's unbelivable, because of this video I have a gf, it cured my depression, this is amazing. (rated 5 stars)<br><br> 
+<br><br> 
+				</div>
+				<div class="commentAction smallText">
+					
+		
+		<div class="commentAction smallText" id="container_comment_form_id_76V55SbWDl8" style="display: none">
+		</div>
+		<div class="commentAction smallText" id="reply_comment_form_id_76V55SbWDl8">
+					  (<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" onclick="showCommentReplyForm(&#39;comment_form_id_76V55SbWDl8&#39;, &#39;76V55SbWDl8&#39;, false); return false;" class="eLink">reply to this</a>) &nbsp; 
+	</div>
+
+	<div id="div_comment_form_id_76V55SbWDl8"></div>
+
+				</div>
+			</div>
+	</div> <!-- comment_div_id -->
+
+			<div id="div_l0JAPSqd_2s"> <!-- comment_div_id -->
+			<a name="l0JAPSqd_2s"></a>
+			<div class="commentEntry" id="comment_l0JAPSqd_2s">
+				<div class="commentHead">
+					<b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/LadyShalott">strawcup__</a></b>
+					<span class="smallText"> (3 hours ago)</span>
+				</div>
+				<div class="commentBody">
+					Thanks, it took a while to create, felt like years for me the video has been an inspiring journey for me and i hope i can inspire other people on the way.
+				</div>
+				<div class="commentAction smallText">
+					
+		
+		<div class="commentAction smallText" id="container_comment_form_id_l0JAPSqd_2s" style="display: none">
+		</div>
+		<div class="commentAction smallText" id="reply_comment_form_id_l0JAPSqd_2s">
+					  (<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" onclick="showCommentReplyForm(&#39;comment_form_id_l0JAPSqd_2s&#39;, &#39;l0JAPSqd_2s&#39;, false); return false;" class="eLink">reply to this</a>) &nbsp; 
+	</div>
+
+	<div id="div_comment_form_id_l0JAPSqd_2s"></div>
+
+				</div>
+			</div>
+	</div> <!-- comment_div_id -->
+
+			
+		
+		<div class="commentAction smallText" id="container_comment_form_id_HKk8WZ7r7kQ" style="display: none">
+		</div>
+	
+	</div>
+
+	<div id="div_comment_form_id_HKk8WZ7r7kQ"></div>
+
+				</div>
+			</div>
+	</div> <!-- comment_div_id -->
+
+			
+
+				</div>
+				<div class="commentAction smallText">
+					
+		
+		
+
+
+			<div>
+			<b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" onclick="load_all_comments(&#39;sJ6mjRrKi7c&#39;, true); return false;">View All 5 Comments</a></b>
+			</div>
+		</div> <!-- end recent_comments -->
+	<div id="all_comments" style="display: none;">
+		<table><tbody><tr>
+		<td><h2 class="commentHeading">Comments (5)</h2></td>
+		<td align="right"><div id="reply_main_comment2" class="commentHeading"><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" class="eLink" onclick="showCommentReplyForm(&#39;main_comment2&#39;, &#39;&#39;, false); return false;">Post a new comment</a></div></td>
+         <input name="search" tabindex="1" id="searchField" type="text" maxlength="128" value="">
+		</tr></tbody></table>
+		
+		<div id="div_main_comment2"></div>
+		
+		<div id="all_comments_content">
+		</div>
+	</div>
+
+	
+			
+			<div style="margin-top: 8px;">
+		
+		<div id="div_main_comment"></div>
+	</div> <!-- end commentsDiv -->
+	
+</div> <!-- end interactDiv -->
+</td>
+
+
+
+<td>
+
+<div id="aboutExploreDiv">
+		<div class="headerRCBox">
+	<b class="rch">
+	<b class="rch1"><b></b></b>
+	<b class="rch2"><b></b></b>
+	<b class="rch3"></b>
+	<b class="rch4"></b>
+	<b class="rch5"></b>
+	</b> <div class="content"><span class="headerTitleLite">About This Video</span></div>
+	</div>
+
+	<div id="aboutVidDiv" class="contentBox">
+		<div id="uploaderInfo">
+				<div>
+					<span class="smallLabel">Added on</span> <b class="smallText">June 10, 2006, 05:38 PM</b><br>
+					<span class="smallLabel">by</span> <b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/profile?user=manyhighways">strawcup__</a></b>
+					<span class="xsmallText">
+							(70 videos)
+						<!-- 5 hours ago) -->
+						<!-- 0 favorites -->
+					</span>
+				</div>
+
+
+		</div> <!-- end uploaderInfo -->
+		
+		
+        <div id="vidNameDescDiv">
+        	<!-- <b>On the Set of Spiderman 3</b>
+			(<span class="runtime">00:36</span>)<br/> -->
+			<span id="vidDescBegin">
+			I hope I made you learn something by using this, if you did make sure to rate 5 stars and subscribe to the channel i've recently started 20 years ago today, and I'll see ya next time xD lol bye - June 10, 2006
+			</span>
+		</div>
+		
+		<div id="vidTagsWrapper">
+			<div id="vidTagsLabel" class="label">Tags:</div>
+			<div id="vidTagsDiv">
+			<span id="vidTagsBegin">
+<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/results?search=spiderman">strawcup</a> &nbsp; <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/results?search=spiderman3">straw</a> &nbsp; <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/results?search=newyork">strawyt</a> &nbsp; <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/results?search=nyc">neopets stock market</a> &nbsp; <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/results?search=movie">virtual pet</a>			</span>
+			</div> <!-- end vidTagsDiv -->
+		</div> <!-- end vidTagsWrapper -->
+		
+		<div id="vidURLDiv">
+            <form name="urlForm" id="urlForm">
+            <table id="vidURLTable">
+            <tbody><tr><td><span class="label">URL</span></td>
+            <td>
+            <input name="video_link" type="text" value="https://www.youtube.com/watch?v=ceZPgU1mml4" class="vidURLField" onclick="javascript:document.urlForm.video_link.focus();document.urlForm.video_link.select();" readonly="true">
+            </td>
+            </tr>
+            <tr><td><span class="smallLabel">Embed</span></td>
+            <td>
+            <input name="embed_code" type="text" value="&lt;object width=&quot;425&quot; height=&quot;350&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/sJ6mjRrKi7c&quot;&gt;&lt;/param&gt;&lt;embed src=&quot;http://www.youtube.com/v/sJ6mjRrKi7c&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;425&quot; height=&quot;350&quot;&gt;&lt;/embed&gt;&lt;/object&gt;" class="vidURLField" onclick="javascript:document.urlForm.embed_code.focus();document.urlForm.embed_code.select();" readonly="true">
+            </td></tr>
+            </tbody></table>
+            </form>
+        </div>
+        
+        
+        <div id="subscribeDiv" class="smallText">
+        <a href="https://tinyurl.com/strawsuckers" title="subscribe to strawcup__&#39;s videos"><img src="./YouTube - On the Set of Spiderman 3_files/sub_button.gif" class="alignMid" width="81" alt="subscribe" border="0" title="subscribe to strawcup__&#39;s videos"></a> to strawcup__'s videos
+        </div>
+        
+	</div>
+
+
+		<div class="headerRCBox">
+	<b class="rch">
+	<b class="rch1"><b></b></b>
+	<b class="rch2"><b></b></b>
+	<b class="rch3"></b>
+	<b class="rch4"></b>
+	<b class="rch5"></b>
+	</b> <div class="content"><span class="headerTitleLite">Explore More Videos</span></div>
+	</div>
+
+	<div id="exploreDiv" class="contentBox">
+
+		<table id="exSubNavTable"><tbody><tr>
+		<td><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" id="exRelatedLink" class="selectedNavLink" onclick="showRelatedVideosContent(); return false;">Suggested</a></td>
+		<td align="center"><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" id="exPlaylistLink" class="unSelectedNavLink eLink" onclick="showRelatedPlaylistContent(); return false;">Playlists</a></td>
+		<td align="right"><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=sJ6mjRrKi7c#" id="exUserLink" class="unSelectedNavLink eLink" onclick="showRelatedUserContent(); return false;"><span class="smallText">strawcup__'s</span> Videos</a></td>
+		</tr></tbody></table>
+		
+
+			<div id="exRelatedDiv" style="display: block;">
+				<table class="showingTable"><tbody><tr>
+	<td class="smallText">Showing 1-16 of 16</td>
+	<td align="right" class="smallText"></td>
+	</tr></tbody></table>
+
+				<script language="javascript">	
+		var side_imgs_loaded=false;
+		function render_full_side()
+		{
+			if (!side_imgs_loaded)
+			{
+				
+					img = document.getElementById("side_img_5");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static9.sjl.youtube.com/vi/37QET4YFNEo/2.jpg";
+				
+					img = document.getElementById("side_img_6");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static12.sjl.youtube.com/vi/S1qibbx5L3M/2.jpg";
+				
+					img = document.getElementById("side_img_7");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static11.sjl.youtube.com/vi/vZLOUA-AJYA/2.jpg";
+				
+					img = document.getElementById("side_img_8");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static10.sjl.youtube.com/vi/2Gt2PS3-CJg/2.jpg";
+				
+					img = document.getElementById("side_img_9");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static4.sjl.youtube.com/vi/SPIvak7NwSs/2.jpg";
+				
+					img = document.getElementById("side_img_10");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static16.sjl.youtube.com/vi/e0wmreCnQmY/2.jpg";
+				
+					img = document.getElementById("side_img_11");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static4.sjl.youtube.com/vi/ECpv5kZ0PW8/2.jpg";
+				
+					img = document.getElementById("side_img_12");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static13.sjl.youtube.com/vi/aSL4mp6rqsc/2.jpg";
+				
+					img = document.getElementById("side_img_13");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static1.sjl.youtube.com/vi/boneScKCGuU/2.jpg";
+				
+					img = document.getElementById("side_img_14");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static11.sjl.youtube.com/vi/nsmREoG1I9c/2.jpg";
+				
+					img = document.getElementById("side_img_15");
+					img.src = "http://web.archive.org/web/20060615051354/http://sjl-static7.sjl.youtube.com/vi/aB4Aw8li5jU/2.jpg";
+				
+				side_imgs_loaded = true;
+			}
+		}
+		</script>
+
+		<div id="side_results" class="exploreContent" name="side_results" onscroll="render_full_side()">
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=8MH68S11dmg&amp;mode=suggested&amp;search="><img class="vimgSm" src="./YouTube - On the Set of Spiderman 3_files/2.jpg"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=8MH68S11dmg&amp;mode=suggested&amp;search=">Spiderman3 teaser</a></b><br>
+			<span class="runtime">00:50</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/jonnyu2">jonnyu2</a><br>
+				<span class="grayText">Views:</span> 34458
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=T0n4OeM2xxc&amp;mode=suggested&amp;search="><img class="vimgSm" src="./YouTube - On the Set of Spiderman 3_files/2(1).jpg"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=T0n4OeM2xxc&amp;mode=suggested&amp;search=">Spiderman 3</a></b><br>
+			<span class="runtime">01:29</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/Dillondeegan">Dillondeegan</a><br>
+				<span class="grayText">Views:</span> 6443
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=5Jp90V8e9zs&amp;mode=suggested&amp;search="><img class="vimgSm" src="./YouTube - On the Set of Spiderman 3_files/2(2).jpg"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=5Jp90V8e9zs&amp;mode=suggested&amp;search=">Brock to Venom</a></b><br>
+			<span class="runtime">00:03</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/bhold1">bhold1</a><br>
+				<span class="grayText">Views:</span> 979
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=JSfh4h8Lico&amp;mode=suggested&amp;search="><img class="vimgSm" src="./YouTube - On the Set of Spiderman 3_files/2(3).jpg"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=JSfh4h8Lico&amp;mode=suggested&amp;search=">spiderman3</a></b><br>
+			<span class="runtime">00:31</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/chukillas">chukillas</a><br>
+				<span class="grayText">Views:</span> 368
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=uLUtbXkIDhA&amp;mode=suggested&amp;search="><img class="vimgSm" src="./YouTube - On the Set of Spiderman 3_files/2(4).jpg"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=uLUtbXkIDhA&amp;mode=suggested&amp;search=">Transformers the movie - CGI test.</a></b><br>
+			<span class="runtime">00:16</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/dieS3KT0R">dieS3KT0R</a><br>
+				<span class="grayText">Views:</span> 112
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=37QET4YFNEo&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_5" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=37QET4YFNEo&amp;mode=suggested&amp;search=">www.monicamartin.net</a></b><br>
+			<span class="runtime">00:39</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/ifbbmonix">ifbbmonix</a><br>
+				<span class="grayText">Views:</span> 1696
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=S1qibbx5L3M&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_6" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=S1qibbx5L3M&amp;mode=suggested&amp;search=">smoking_girl_64</a></b><br>
+			<span class="runtime">03:00</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/romarain44">romarain44</a><br>
+				<span class="grayText">Views:</span> 1215
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=vZLOUA-AJYA&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_7" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=vZLOUA-AJYA&amp;mode=suggested&amp;search=">TransFormers the movie - Screen Test</a></b><br>
+			<span class="runtime">00:34</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/mwxp">mwxp</a><br>
+				<span class="grayText">Views:</span> 3343
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=2Gt2PS3-CJg&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_8" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=2Gt2PS3-CJg&amp;mode=suggested&amp;search=">Spiderman 3 Teaser Part 3</a></b><br>
+			<span class="runtime">03:05</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/tyler84s">tyler84s</a><br>
+				<span class="grayText">Views:</span> 3883
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=SPIvak7NwSs&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_9" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=SPIvak7NwSs&amp;mode=suggested&amp;search=">Transformer</a></b><br>
+			<span class="runtime">02:32</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/whorrortrix">whorrortrix</a><br>
+				<span class="grayText">Views:</span> 414
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=e0wmreCnQmY&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_10" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=e0wmreCnQmY&amp;mode=suggested&amp;search=">Best Friends</a></b><br>
+			<span class="runtime">01:03</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/spiderman89">spiderman89</a><br>
+				<span class="grayText">Views:</span> 10514
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=ECpv5kZ0PW8&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_11" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=ECpv5kZ0PW8&amp;mode=suggested&amp;search=">Venom spaz</a></b><br>
+			<span class="runtime">00:16</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/zadra">zadra</a><br>
+				<span class="grayText">Views:</span> 1487
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=aSL4mp6rqsc&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_12" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=aSL4mp6rqsc&amp;mode=suggested&amp;search=">Motorola Q running pocket NES</a></b><br>
+			<span class="runtime">00:19</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/wildkatct">wildkatct</a><br>
+				<span class="grayText">Views:</span> 108418
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=boneScKCGuU&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_13" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=boneScKCGuU&amp;mode=suggested&amp;search=">Daiamondhead and Pipeline</a></b><br>
+			<span class="runtime">03:44</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/litlleterrykohei">litlleterrykohei</a><br>
+				<span class="grayText">Views:</span> 351202
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=nsmREoG1I9c&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_14" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=nsmREoG1I9c&amp;mode=suggested&amp;search=">R those arms?</a></b><br>
+			<span class="runtime">02:54</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/hiugo07">hiugo07</a><br>
+				<span class="grayText">Views:</span> 113
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+		<div class="vWatchEntry">
+		<table><tbody><tr>
+		<td><div class="img">
+				<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=aB4Aw8li5jU&amp;mode=suggested&amp;search="><img class="vimgSm" id="side_img_15" src="./YouTube - On the Set of Spiderman 3_files/pixel.gif"></a></div></td>
+		<td><div class="title"><b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/watch?v=aB4Aw8li5jU&amp;mode=suggested&amp;search=">look out</a></b><br>
+			<span class="runtime">00:02</span>
+			</div>
+			<div class="facets">
+				<span class="grayText">From:</span> <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/user/papuchorios">papuchorios</a><br>
+				<span class="grayText">Views:</span> 3665
+			</div>
+			</td>
+		</tr></tbody></table>
+		</div> <!-- end vWatchEntry -->
+	
+	</div>
+
+			<table class="showingTable"><tbody><tr>
+	<td class="smallText">Showing 1-16 of 16</td>
+	<td align="right" class="smallText"></td>
+	</tr></tbody></table>
+			</div> <!-- end exRelatedDiv -->
+			
+			
+			<div id="exPlaylistDiv" style="display: none;">
+				Loading...
+			</div> <!-- end exPlaylistDiv -->
+			
+			
+			<div id="exUserDiv" style="display: none">
+			Loading...
+			</div> <!-- end exUserDiv -->
+
+		
+	</div> <!-- end exploreDiv -->
+	
+	
+
+	
+</div> <!-- end aboutExploreDiv -->
+
+</td>
+
+
+
+<td>
+<div id="sideAdDiv">
+	<div id="dVidsDiv">
+	<div class="heading">Director Videos</div>
+		<div class="dvidEntry">
+			<div><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/cthru?qtSoRUqdnclN6pOVAJne4dBN-gCC7LPR2nvN1vJM58mqDkK1bu6giXyc4NZ7QAqJHzQ9SLEcDYBmh7LN9sdFoR6Wxij42-YbgzeYCdK_pL41uDdsfXw0fV1fJThLlq7JbQp4rmRf64zAp-rPsPcKCTyk2p2tKHdPZdlOHcQAfx3yue1EykY_1tLe6GMfrOA2f-RpDNEwnJ8=" target="_parent"><img src="./YouTube - On the Set of Spiderman 3_files/2(5).jpg" class="vimgMd"></a></div>
+			<div class="title">
+			<b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/cthru?qtSoRUqdnclN6pOVAJne4dBN-gCC7LPR2nvN1vJM58mqDkK1bu6giXyc4NZ7QAqJHzQ9SLEcDYBmh7LN9sdFoR6Wxij42-YbgzeYCdK_pL41uDdsfXw0fV1fJThLlq7JbQp4rmRf64zAp-rPsPcKCTyk2p2tKHdPZdlOHcQAfx3yue1EykY_1tLe6GMfrOA2f-RpDNEwnJ8=" target="_parent">No Swearing!</a></b><br>
+			<span class="runtime">12:09</span>
+			</div>
+			<div class="facets">
+			<span class="grayText">From:</span> boh3m3
+			</div>
+		</div>
+		<div class="dvidEntry">
+			<div><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/cthru?I8D0j8iI7GyN8WHt34qEYYmGqObLFYlckdavdjGLufamWlVJ_6oWinFdR8NkO-0EQSkJzY9oKiJHZZeBxBKgtak9h5gNCklUDVWZRXA0c-PbPDB6pTGxJSa3Ox5j4cR2nsxuItYXSrG2iu8E74P3MciOEHPCHuA8u3cg1Zc6Dpx6AO6JDdKtMYRjyQx6R5tT2ALPpn4oDFE=" target="_parent"><img src="./YouTube - On the Set of Spiderman 3_files/2(6).jpg" class="vimgMd"></a></div>
+			<div class="title">
+			<b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/cthru?I8D0j8iI7GyN8WHt34qEYYmGqObLFYlckdavdjGLufamWlVJ_6oWinFdR8NkO-0EQSkJzY9oKiJHZZeBxBKgtak9h5gNCklUDVWZRXA0c-PbPDB6pTGxJSa3Ox5j4cR2nsxuItYXSrG2iu8E74P3MciOEHPCHuA8u3cg1Zc6Dpx6AO6JDdKtMYRjyQx6R5tT2ALPpn4oDFE=" target="_parent">Chainer</a></b><br>
+			<span class="runtime">02:20</span>
+			</div>
+			<div class="facets">
+			<span class="grayText">From:</span> Chainer
+			</div>
+		</div>
+		<div class="dvidEntry">
+			<div><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/cthru?w1uTXdthg6ie4Obq1HW_ZvsLQKlkcoFQENU0KmArIVwRVd0uJvMjUagUa3UUvy_cABv8kLdZVVdTFpBrFK7Nav7zmfookiNeZOZrUbN09EQOKY4Z8nGDG8TaTlmm1WnRKzE3sqaz0yO7GSxqAzuPJjCshlM-v4L7RrjvooB4zj4xnuVK8IW3Qplj7yTvkzBD9RYwpOYDrcQ=" target="_parent"><img src="./YouTube - On the Set of Spiderman 3_files/2(7).jpg" class="vimgMd"></a></div>
+			<div class="title">
+			<b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/cthru?w1uTXdthg6ie4Obq1HW_ZvsLQKlkcoFQENU0KmArIVwRVd0uJvMjUagUa3UUvy_cABv8kLdZVVdTFpBrFK7Nav7zmfookiNeZOZrUbN09EQOKY4Z8nGDG8TaTlmm1WnRKzE3sqaz0yO7GSxqAzuPJjCshlM-v4L7RrjvooB4zj4xnuVK8IW3Qplj7yTvkzBD9RYwpOYDrcQ=" target="_parent">Playing Video Games for a Living</a></b><br>
+			<span class="runtime">05:53</span>
+			</div>
+			<div class="facets">
+			<span class="grayText">From:</span> forbes
+			</div>
+		</div>
+		<div class="dvidEntry">
+			<div><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/cthru?JpzEdBQuPOfkKriQtt2ywvKmuZ0IqxiVTqhkeZVTPRuVhOfUZv7kJGVc796_s6cpV3bXPhNfeJjMOvJyMvp4IpY6b4EvR1N5TBHOJjMFkvCNhitx3ArFOQBTBZywdaX50cNVRuLq82R3YufwP40pP1UG1eM2_7EfiDm4Eoxv_rhNw9haLS2BEu0QYuBkCb0LbTiXhv-kl9o=" target="_parent"><img src="./YouTube - On the Set of Spiderman 3_files/2(8).jpg" class="vimgMd"></a></div>
+			<div class="title">
+			<b><a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/cthru?JpzEdBQuPOfkKriQtt2ywvKmuZ0IqxiVTqhkeZVTPRuVhOfUZv7kJGVc796_s6cpV3bXPhNfeJjMOvJyMvp4IpY6b4EvR1N5TBHOJjMFkvCNhitx3ArFOQBTBZywdaX50cNVRuLq82R3YufwP40pP1UG1eM2_7EfiDm4Eoxv_rhNw9haLS2BEu0QYuBkCb0LbTiXhv-kl9o=" target="_parent">Grandaddy</a></b><br>
+			<span class="runtime">03:45</span>
+			</div>
+			<div class="facets">
+			<span class="grayText">From:</span> thetripwiredotcom
+			</div>
+		</div>
+	</div> <!-- end dVidsDiv -->
+</div>
+</td>
+
+</tr></tbody></table>
+
+
+
+
+	<div id="footerDiv">
+		<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/blog">Our Blog</a> | <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/t/explore_youtube">Explore YouTube</a> | <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/t/about">About Us</a> |
+		<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/t/help_center">Help Center</a> | <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/t/safety">Safety Tips</a> | <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/dev">Developers</a> |
+		<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/t/terms">Terms of Use</a> | <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/t/privacy">Privacy Policy</a> | <a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/t/jobs">Jobs</a>
+		<br><br>
+		Copyright © 2006 YouTube, Inc.&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://web.archive.org/web/20060615051354/http://www.youtube.com/rssls"><img src="./YouTube - On the Set of Spiderman 3_files/rss.gif" width="36" height="14" border="0" style="vertical-align: text-top;"></a>
+	</div>
+
+	
+	
+	
+</div>
+
+
+
+<!--
+playback timings (ms):
+  exclusion.robots: 0.239
+  esindex: 67.086
+  PetaboxLoader3.datanode: 306.244 (7)
+  CDXLines.iter: 20.057 (2)
+  RedisCDXSource: 5.464
+  captures_list: 867.351
+  LoadShardBlock: 762.282 (3)
+  exclusion.robots.policy: 0.224
+  PetaboxLoader3.resolve: 515.364 (3)
+  load_resource: 145.433
+--></body></html>
